@@ -25,6 +25,11 @@ Sliding Window
 #System Design
 
 Symbolic Link to mount many/infinite files
+Create:
 ```linux
 ln -s /script/file.sh file.sh
+```
+Delete:
+```linux
+rm -rf file.sh
 ```

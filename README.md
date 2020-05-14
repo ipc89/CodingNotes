@@ -17,3 +17,14 @@ array[::-1]
 ```
 
 Sliding Window
+
+
+
+
+
+#System Design
+
+Symbolic Link to mount many/infinite files
+```linux
+ln -s /script/file.sh file.sh
+```

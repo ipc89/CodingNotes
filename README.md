@@ -24,12 +24,20 @@ Sliding Window
 
 #System Design
 
-Symbolic Link to mount many/infinite files
+Symbolic link to mount many/infinite files. Helps to keep reference if there are space issues.
+
 Create:
 ```linux
+link -symbolic current_destination_filename filename_link
 ln -s /script/file.sh file.sh
 ```
 Delete:
 ```linux
 rm -rf file.sh
+```
+
+i.e need space?
+```linux
+mv /games/gamedirectory 100tb/games/gamedirectory
+ln -s /games/gamedirectory gamedirectory
 ```
